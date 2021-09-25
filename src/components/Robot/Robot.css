@@ -16,21 +16,24 @@
   border-radius: 50%;
 }
 
-.robot p {
-  font-weight: bold;
-}
-
 .robot .robo-name {
   color: #e23e58;
   font-size: 1.5rem;
 }
 
-.robo-value {
-  font-size: 1.3rem;
+.robot .robo-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-span {
-  font-weight: normal;
+.robo-info div:nth-child(odd) p {
+  font-weight: bold;
+  text-align: left;
+}
+
+.robo-info div:nth-child(even) {
+  text-align: right;
 }
 
 button {
