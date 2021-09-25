@@ -1,0 +1,15 @@
+.header-area {
+  text-align: center;
+}
+
+.header-area h1 {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.header-area p {
+  text-align: center;
+  line-height: 0.7;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
