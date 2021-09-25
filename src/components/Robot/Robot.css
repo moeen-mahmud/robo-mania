@@ -21,7 +21,12 @@
 }
 
 .robot .robo-name {
+  color: #e23e58;
   font-size: 1.5rem;
+}
+
+.robo-value {
+  font-size: 1.3rem;
 }
 
 span {

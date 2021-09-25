@@ -2,7 +2,8 @@ import React from "react";
 import "./Robot.css";
 
 const Robot = (props) => {
-  const { avatar, call_code, made, name, value, version } = props.robot;
+  const { avatar, call_code, made, name, value, version, address } =
+    props.robot;
   return (
     <div className="robot">
       <img src={avatar} alt={call_code} />
@@ -13,11 +14,14 @@ const Robot = (props) => {
       <p className="robo-company">
         Made by: <span>{made.slice(0, 10)}</span>
       </p>
-      <p className="robo-value">
-        Value: <span>${value}</span>
-      </p>
       <p className="robo-version">
         Version: <span>{version}</span>
+      </p>
+      <p className="robo-address">
+        Address: <span>{address}</span>
+      </p>
+      <p className="robo-value">
+        Value: <span>${value}</span>
       </p>
       <button onClick={() => props.handleClick(props.robot)}>Purchase</button>
     </div>

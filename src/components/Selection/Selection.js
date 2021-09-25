@@ -28,10 +28,10 @@ const Selection = (props) => {
   return (
     <div>
       <h3>Total Selection: {totalSelection}</h3>
+      <h2>Total Value: ${total}</h2>
       {uniqueName.map((name) => (
-        <div key={name.id}>
-          <img src={name.avatar} alt={name.name} />
-          <h4>{name.name}</h4>
+        <div key={name}>
+          <h4>{name}</h4>
         </div>
       ))}
     </div>

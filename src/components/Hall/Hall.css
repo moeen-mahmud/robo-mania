@@ -1,6 +1,7 @@
 .hall-container {
   margin-top: 4rem;
   margin-left: 5rem;
+  margin-bottom: 3rem;
   display: grid;
   grid-template-columns: 3fr 1fr;
   gap: 1rem;
