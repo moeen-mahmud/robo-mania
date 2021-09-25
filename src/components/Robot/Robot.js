@@ -19,7 +19,7 @@ const Robot = (props) => {
       <p className="robo-version">
         Version: <span>{version}</span>
       </p>
-      <button>Purchase</button>
+      <button onClick={() => props.handleClick(props.robot)}>Purchase</button>
     </div>
   );
 };
