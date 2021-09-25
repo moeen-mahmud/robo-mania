@@ -28,7 +28,7 @@ const Selection = (props) => {
   return (
     <div>
       <h3>Total Selection: {totalSelection}</h3>
-      <h2>Total Value: ${total}</h2>
+      <h2>Total Value: ${total.toFixed(2)}</h2>
       {uniqueName.map((name) => (
         <div key={name}>
           <h4>{name}</h4>
