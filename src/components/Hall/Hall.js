@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Robot from "../Robot/Robot";
+import "./Hall.css";
 
 const Hall = () => {
   const [robots, setRobots] = useState([]);
