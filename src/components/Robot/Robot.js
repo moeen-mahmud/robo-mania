@@ -18,7 +18,7 @@ const Robot = (props) => {
         </div>
         <div>
           <p>{call_code.slice(0, 10)}</p>
-          <p>{made.slice(0, 10)}</p>
+          <p>{made.slice(0, 15)}</p>
           <p>{version}</p>
           <p>{address}</p>
           <p>${value}</p>
