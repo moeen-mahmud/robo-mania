@@ -1,0 +1,40 @@
+.robot {
+  padding: 2rem 1rem;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 12px 15px 30px -12px rgba(30, 30, 60, 0.25);
+  transition: all 0.3s ease-in;
+}
+
+.robot:hover {
+  transform: scale(1.03);
+}
+
+.robot img {
+  width: 25%;
+  border: 2px solid #232832;
+  border-radius: 50%;
+}
+
+.robot p {
+  font-weight: bold;
+}
+
+.robot .robo-name {
+  font-size: 1.5rem;
+}
+
+span {
+  font-weight: normal;
+}
+
+button {
+  margin-top: 2rem;
+  padding: 0.7rem 3rem;
+  color: #fefeff;
+  background-color: #e23e58;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

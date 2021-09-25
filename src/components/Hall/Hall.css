@@ -1,11 +1,17 @@
 .hall-container {
+  margin-top: 4rem;
+  margin-left: 5rem;
   display: grid;
   grid-template-columns: 3fr 1fr;
-  margin-top: 4rem;
+  gap: 1rem;
 }
 
 .hall-container .robots-area {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+}
+
+.selection-area {
+  text-align: center;
 }
