@@ -1,0 +1,10 @@
+.selected-robots {
+  width: 75%;
+  margin-left: 3rem;
+  text-align: center;
+  background-color: #232832;
+  color: #fefeff;
+  padding: 1px 0;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}

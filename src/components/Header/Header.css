@@ -1,5 +1,4 @@
 .header-area {
-  font-family: "B612 Mono", monospace;
   text-align: center;
   margin: 0 5rem;
   padding-bottom: 2rem;
@@ -13,7 +12,15 @@
 
 .header-area p {
   text-align: center;
-  line-height: 0.7;
+  line-height: 1.8;
   font-size: 1.1rem;
   font-weight: 600;
+}
+
+.header-area span {
+  padding: 5px;
+  font-size: 1.2rem;
+  background-color: #232832;
+  color: #fefeff;
+  border-radius: 5px;
 }

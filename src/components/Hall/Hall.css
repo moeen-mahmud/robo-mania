@@ -1,8 +1,7 @@
 .hall-container {
   margin-top: 4rem;
-  margin-left: 3rem;
+  margin-left: 2rem;
   margin-bottom: 3rem;
-  font-family: "B612 Mono", monospace;
   display: grid;
   grid-template-columns: 3fr 1fr;
   gap: 1rem;

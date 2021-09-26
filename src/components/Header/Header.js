@@ -5,9 +5,15 @@ const Header = () => {
   return (
     <div className="header-area">
       <h1>Choose your Robots</h1>
-      <p className="main-subtitle">Be an awesome robot manager</p>
-      <p>Your initial budget is $1 Billion 🤯</p>
-      <p className="secondary-subtitle">Keep selecting untill the funds end</p>
+      <p>
+        Be an awesome robot manager and get ready
+        <br />
+        for the upcoming tournament!
+        <br />
+        Your initial budget is <span>$1 Billion</span> 🤯
+        <br />
+        Keep selecting untill the funds end.
+      </p>
     </div>
   );
 };

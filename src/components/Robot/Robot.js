@@ -1,9 +1,14 @@
 import React from "react";
 import "./Robot.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faRobot } from "@fortawesome/free-solid-svg-icons";
 
 const Robot = (props) => {
   const { avatar, call_code, made, name, value, version, address } =
     props.robot;
+
+  const robotIcon = <FontAwesomeIcon icon={faRobot}></FontAwesomeIcon>;
+
   return (
     <div className="robot">
       <img src={avatar} alt={call_code} />
@@ -24,7 +29,9 @@ const Robot = (props) => {
           <p>${value}</p>
         </div>
       </div>
-      <button onClick={() => props.handleClick(props.robot)}>Purchase</button>
+      <button onClick={() => props.handleClick(props.robot)}>
+        {robotIcon} Grab Me
+      </button>
     </div>
   );
 };

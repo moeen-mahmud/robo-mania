@@ -4,34 +4,43 @@ import "./Selection.css";
 const Selection = (props) => {
   const { selection } = props;
 
-  let total = 0;
-  let totalSelection = 0;
-  let robotName = [];
-  let uniqueName = [];
+  const robotName = [];
+  const robotValue = [];
+  const uniqueName = [];
+  const uniqueValue = [];
   for (const robot of selection) {
-    if (!robot.quantity) {
-      robot.quantity = 1;
-    }
     if (robotName.indexOf(robot) === -1) {
       robotName.push(robot.name);
+    }
+    if (robotValue.indexOf(robot) === -1) {
+      robotValue.push(robot.value);
     }
     for (const unique of robotName) {
       if (uniqueName.indexOf(unique) === -1) {
         uniqueName.push(unique);
       }
     }
-    total = total + robot.value * robot.quantity;
-    totalSelection = totalSelection + robot.quantity;
+    for (const unique of robotValue) {
+      if (uniqueValue.indexOf(unique) === -1) {
+        uniqueValue.push(unique);
+      }
+    }
   }
-  console.log(selection);
+
+  const reducer = (prevValue, currentValue) => prevValue + currentValue;
+  const totalValue = uniqueValue.reduce(reducer, 0);
+
+  console.log(uniqueName);
+  console.log(uniqueValue);
+  console.log(totalValue);
 
   return (
     <div>
-      <h3>Total Selection: {totalSelection}</h3>
-      <h2>Total Value: ${total.toFixed(2)}</h2>
+      <h2>Total Selection: {uniqueName.length}</h2>
+      <h3>Total Value: ${totalValue.toFixed(2)}</h3>
       {uniqueName.map((name) => (
-        <div key={name}>
-          <h4>{name}</h4>
+        <div className="selected-robots" key={name}>
+          <h4>{name.slice(0, 10)}</h4>
         </div>
       ))}
     </div>
