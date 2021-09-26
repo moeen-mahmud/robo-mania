@@ -20,7 +20,7 @@
 .robot .robo-name {
   color: #e23e58;
   font-family: "Gugi", cursive;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 .robot .robo-info {
@@ -62,5 +62,5 @@ button:hover {
 }
 
 button:hover .btn-icon {
-  transform: rotate(-60deg);
+  transform: rotate(45deg);
 }

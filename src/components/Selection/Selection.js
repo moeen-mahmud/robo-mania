@@ -38,7 +38,7 @@ const Selection = (props) => {
       </h3>
       {uniqueName.map((name) => (
         <div className="selected-robots" key={name}>
-          <h4>{name.slice(0, 10)}</h4>
+          <h4>{name}</h4>
         </div>
       ))}
     </div>

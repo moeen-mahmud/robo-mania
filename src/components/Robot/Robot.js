@@ -2,19 +2,17 @@ import React from "react";
 import "./Robot.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRobot } from "@fortawesome/free-solid-svg-icons";
-import { faCog } from "@fortawesome/free-solid-svg-icons";
 
 const Robot = (props) => {
   const { avatar, call_code, made, name, value, version, address } =
     props.robot;
 
   const robotIcon = <FontAwesomeIcon icon={faRobot}></FontAwesomeIcon>;
-  const cogIcon = <FontAwesomeIcon icon={faCog}></FontAwesomeIcon>;
 
   return (
     <div className="robot">
       <img src={avatar} alt={call_code} />
-      <p className="robo-name">{name.slice(0, 10)}</p>
+      <p className="robo-name">{name}</p>
       <div className="robo-info">
         <div>
           <p className="robo-code">Code Name:</p>
@@ -32,7 +30,7 @@ const Robot = (props) => {
         </div>
       </div>
       <button onClick={() => props.handleClick(props.robot)}>
-        <span className="btn-icon">{cogIcon}</span> Grab Me
+        Grab Me <span className="btn-icon">{robotIcon}</span>
       </button>
     </div>
   );
