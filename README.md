@@ -2,7 +2,7 @@
 
 This is the place where you can choose the robots as your gladiators for the tournaments!
 
-## [Live Preview]()
+## [Live Preview](https://robo-mania-moeen-mahmud.netlify.app/)
 
 ### Features
 
@@ -16,3 +16,5 @@ First of all, welcome to the new era of robot fighting. This site is **_dedicate
 - Get a great **community** who also love robots.
 
 ## If you like robots, then you will ❤️ our service.
+
+### Grab and Go 🚀
