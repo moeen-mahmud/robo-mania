@@ -34,7 +34,7 @@ const Selection = (props) => {
     <div>
       <h2>Total Selection: {uniqueName.length}</h2>
       <h3>
-        Total Value: <span>${totalValue.toFixed(2)}</span>
+        Total Value: <span>${totalValue}</span>
       </h3>
       {uniqueName.map((name) => (
         <div className="selected-robots" key={name}>
