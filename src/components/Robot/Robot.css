@@ -18,7 +18,8 @@
 
 .robot .robo-name {
   color: #e23e58;
-  font-size: 1.5rem;
+  font-family: "Gugi", cursive;
+  font-size: 1.7rem;
 }
 
 .robot .robo-info {

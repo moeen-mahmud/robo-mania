@@ -8,7 +8,7 @@ const Hall = () => {
   const [selection, setSelection] = useState([]);
 
   useEffect(() => {
-    fetch("./mockData.json")
+    fetch("./robotData.json")
       .then((res) => res.json())
       .then((data) => setRobots(data));
   }, []);
