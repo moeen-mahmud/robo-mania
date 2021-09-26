@@ -1,3 +1,4 @@
+/* Main container styling */
 .hall-container {
   margin-top: 4rem;
   margin-left: 2rem;
@@ -7,12 +8,14 @@
   gap: 1rem;
 }
 
-.hall-container .robots-area {
+/* Robot container styling */
+.robots-area {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
 
+/* Selection area styling */
 .selection-area {
   text-align: center;
 }

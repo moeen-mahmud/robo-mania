@@ -1,11 +1,14 @@
+/* The total value */
 h3 {
   font-size: 1.5rem;
 }
 
+/* Value digits */
 h3 > span {
   font-family: "B612 Mono", monospace;
 }
 
+/* Individually selected robots */
 .selected-robots {
   width: 75%;
   margin-left: 3rem;
@@ -21,6 +24,7 @@ h3 > span {
   transition: all 0.3s ease-in;
 }
 
+/* Mouse hover effects */
 .selected-robots:hover {
   background-color: #e23e58;
 }

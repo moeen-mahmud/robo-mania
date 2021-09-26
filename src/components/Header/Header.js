@@ -1,6 +1,8 @@
+// Importing necessary files
 import React from "react";
 import "./Header.css";
 
+// The Header component
 const Header = () => {
   return (
     <div className="header-area">

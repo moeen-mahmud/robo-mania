@@ -1,3 +1,4 @@
+/* Header area styling */
 .header-area {
   text-align: center;
   margin: 0 5rem;
@@ -5,11 +6,13 @@
   border-bottom: 2px solid #232832;
 }
 
+/* Main title */
 .header-area h1 {
   font-size: 3rem;
   line-height: 1;
 }
 
+/* Main paragraph content */
 .header-area p {
   text-align: center;
   line-height: 1.8;
@@ -17,6 +20,7 @@
   font-weight: 600;
 }
 
+/* Highlighted area */
 .header-area span {
   padding: 5px;
   font-size: 1.2rem;
