@@ -30,14 +30,12 @@ const Selection = (props) => {
   const reducer = (prevValue, currentValue) => prevValue + currentValue;
   const totalValue = uniqueValue.reduce(reducer, 0);
 
-  console.log(uniqueName);
-  console.log(uniqueValue);
-  console.log(totalValue);
-
   return (
     <div>
       <h2>Total Selection: {uniqueName.length}</h2>
-      <h3>Total Value: ${totalValue.toFixed(2)}</h3>
+      <h3>
+        Total Value: <span>${totalValue.toFixed(2)}</span>
+      </h3>
       {uniqueName.map((name) => (
         <div className="selected-robots" key={name}>
           <h4>{name.slice(0, 10)}</h4>

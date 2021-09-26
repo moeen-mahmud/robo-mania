@@ -4,17 +4,17 @@
   border-radius: 5px;
   line-height: 1.3;
   box-shadow: 12px 15px 30px -12px rgba(30, 30, 60, 0.25);
-  transition: all 0.3s ease-in;
 }
 
-.robot:hover {
-  transform: scale(1.03);
+.robot:hover img {
+  transform: scale(1.2);
 }
 
 .robot img {
   width: 25%;
   border: 2px solid #232832;
   border-radius: 50%;
+  transition: all 0.4s ease-in;
 }
 
 .robot .robo-name {
@@ -49,9 +49,18 @@ button {
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
-  transition: all 0.3s ease-in;
+  transition: all 0.4s ease-in;
 }
 
 button:hover {
   background-color: #e92a4a;
+}
+
+.btn-icon {
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover .btn-icon {
+  transform: rotate(-60deg);
 }

@@ -1,10 +1,26 @@
+h3 {
+  font-size: 1.5rem;
+}
+
+h3 > span {
+  font-family: "B612 Mono", monospace;
+}
+
 .selected-robots {
   width: 75%;
   margin-left: 3rem;
+  margin-bottom: 10px;
+  padding: 1px 0;
   text-align: center;
+  font-family: "Gugi", cursive;
+  letter-spacing: 2px;
   background-color: #232832;
   color: #fefeff;
-  padding: 1px 0;
-  margin-bottom: 10px;
   border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.selected-robots:hover {
+  background-color: #e23e58;
 }

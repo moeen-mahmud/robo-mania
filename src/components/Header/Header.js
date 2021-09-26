@@ -4,7 +4,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="header-area">
-      <h1>Choose your Robots</h1>
+      <h1>Choose your Robo Gladiators</h1>
       <p>
         Be an awesome robot manager and get ready
         <br />
